@@ -1,6 +1,28 @@
-# ViK
-Official code for paper 'Vision KAN: Towards an Attention-Free Backbone for Vision with Kolmogorov-Arnold Networks'
+# Vision KAN (ViK)
 
+This repository provides the official PyTorch implementation of  
+**Vision KAN: Towards an Attention-Free Backbone for Vision with Kolmogorov-Arnold Networks**.
+
+> An attention-free KAN-based vision backbone that replaces self-attention blocks with improved Kolmogorov-Arnold Networks.
+
+<p align="center">
+  <img src="figures/overview_vik.svg" width="850">
+</p>
+
+<p align="center">
+  <em>Overview of Vision KAN (ViK).</em>
+</p>
+
+## ImageNet-1K Classification Performance
+
+| Model                | Type       | Params (M) | GFLOPs | Top-1 Acc (%) |
+|----------------------|------------|------------|--------|---------------|
+| ResNet-18            | CNN        | 11.7       | 1.8    | 70.6          |
+| ViT-Ti/16            | Attention  | 5.7        | 1.3    | 72.7          |
+| DeiT-Tiny            | Attention  | 5.7        | 1.3    | 72.2          |
+| PVT-Tiny             | Attention  | 13.2       | 1.9    | 75.1          |
+| ResMLP-S12           | MLP        | 15.0       | 3.0    | 76.6          |
+| **ViK-Small (ours)** | **KAN**    | **13.5**   | **1.6**| **76.5**      |
 
 
 ## Requirements
@@ -38,6 +60,7 @@ imagenet/
     ├── n01443537/
     └── ...
 ```
+
 
 ## Model Training
 
