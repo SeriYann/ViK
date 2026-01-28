@@ -69,6 +69,12 @@ python validate.py /path/to/imagenet \
   --amp
 ```
 
+## Updates
+
+- [ ] Release pretrained ViK checkpoints.
+- [ ] Evaluate ViK on object detection and semantic segmentation benchmarks.
+- [ ] Investigate deeper ViK architectures with larger depth and capacity.
+
 ## Acknowledgements
 
 We would like to thank the authors of the original implementations of Kolmogorov–Arnold Networks and RBF-based KANs, which inspired and facilitated this work:
