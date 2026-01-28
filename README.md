@@ -3,8 +3,19 @@ Official code for paper 'Vision KAN: Towards an Attention-Free Backbone for Visi
 
 
 
+## Requirements
 
+We recommend using **Conda** to manage the environment.
 
+All dependencies are provided in `environment.yml`. You can create the environment with:
+
+```bash
+conda env create -f environment.yml
+
+After installation, activate the environment:
+
+```bash
+conda activate vik
 
 ## Acknowledgement
 We would like to thank the open-source community for their invaluable contributions and support. Special thanks to researchers and developers who have explored various activation functions in Kolmogorov-Arnold Networks (KAN), including:
