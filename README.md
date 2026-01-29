@@ -70,7 +70,7 @@ Below is an example command to train **ViK-Small** on ImageNet-1K using **4 GPUs
 
 ```bash
 torchrun --nproc_per_node=4 train.py \
-  --data_path /path/to/imagenet \
+  /path/to/imagenet \
   --model vik_small \
   -b 256 \
   --lr 1e-3 \
