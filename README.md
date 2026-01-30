@@ -113,4 +113,14 @@ We also acknowledge the [pytorch-image-models](https://github.com/huggingface/py
 
 ## Citation
 If you find this work useful, please cite it as:
-
+```
+@misc{yang2026visionkanattentionfreebackbone,
+      title={Vision KAN: Towards an Attention-Free Backbone for Vision with Kolmogorov-Arnold Networks}, 
+      author={Zhuoqin Yang and Jiansong Zhang and Xiaoling Luo and Xu Wu and Zheng Lu and Linlin Shen},
+      year={2026},
+      eprint={2601.21541},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.21541}, 
+}
+```
